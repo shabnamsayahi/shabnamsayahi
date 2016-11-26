@@ -1,0 +1,221 @@
+/*css html element selector*/
+body 
+{
+  font-size: 1em;
+  text-align: center;
+  background-color: white;
+  margin: 0; 
+  font-family: calluna; 
+}
+
+/*css class selector*/
+.profile-pic
+{
+  width: 10%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: center;
+  flex-grow: 1;
+  flex-basis: 24%;
+}
+#introduction
+{
+  height: 330px;
+  padding:4%;
+  background-image: url("Splash.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.intro 
+{
+  margin: auto;
+  width: auto;  
+  border: 1px;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 100px;
+  box-sizing: border-box;
+  font-family: calluna;
+  line-height: 1.6em;
+  letter-spacing: .4px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgba(31,37,38,.75);
+}
+
+.about-me
+{
+  font-family: Fabrics;
+  text-align: center;
+  font-size: 90px;
+  padding: 10px;
+}
+
+#background
+{
+  height: 50%;
+  background-color: white;
+  padding: 30px;
+  font-size: 150%;
+}
+.Education-portfolio a:visited
+{
+  color:grey;
+} 
+
+.painting-container
+{ 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+}
+.painting-frame 
+{ 
+  margin: 15px;
+  flex-grow: 1;
+  flex-basis: 24%;
+}
+.painting
+{ 
+ max-width: 100%;
+ border: 4px solid black;
+}
+
+@media (max-width: 1200px) {
+  .painting-frame  {
+    flex-grow: 1;
+    flex-basis: 33%;
+  }
+}
+@media (max-width: 600px) {
+  .painting-frame {
+    flex-grow: 1;
+    flex-basis: 47%;
+  }
+}
+.Titles
+{
+  font-size: 45px;
+  text-align: center;
+  font-family: calluna;
+  margin:3%;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+.Education
+{
+color: rgba(31,37,38,.75);
+font-size: 25px;
+text-align: left;
+font-family: calluna;
+line-height: 30px;
+margin: 0 auto;
+padding: 0;
+}
+@media (max-width: 1500px) {
+  .Education  {
+   width: 625px;
+  }
+}
+@media (max-width: 750px) {
+  .Education  {
+   width: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .Education  {
+   width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .Education  {
+   width: 300px;
+  }
+}
+.Education-timeline
+{
+color: black;
+font-size: 25px;
+text-align: right;
+font-family: calluna;
+line-height: 0.1;
+}
+
+.Education-portfolio
+{
+color: rgba(31,37,38,.75);
+font-size: 25px;
+text-align: center;
+font-family: calluna;
+line-height: 30px;
+}
+.Skills
+{
+color: rgba(31,37,38,.75);
+font-size: 25px;
+text-align: left;
+font-family: calluna;
+line-height: 30px;
+margin: 0 auto;
+padding: 0;
+
+}
+@media (max-width: 1500px) {
+  .Skills {
+   width: 525px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Skills  {
+   width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .Skills  {
+   width: 300px;
+  }
+}
+/* Navigation Toolbar*/
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Classes */
+
+  #section1 {padding-top:0px; background-color: white}
+  #section2 {padding-top:20px; background-color: white;}
+  #section3 {padding-top:20px; background-color: white;}
+  #section4 {padding-top:20px;background-color: white;}
+  
+
+/* Navigation Toolbar ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

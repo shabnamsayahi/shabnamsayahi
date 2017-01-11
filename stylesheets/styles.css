@@ -24,7 +24,7 @@ body
 {
   height: 330px;
   padding:4%;
-  background-image: url("resources/theme/splash-background.jpg");
+  background-image: url("stylesheets/background/splash-background.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
